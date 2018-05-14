@@ -1,0 +1,150 @@
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+\documentclass[letterpaper,11pt]{article}
+
+%-----------------------------------------------------------
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+\usepackage{shading}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+\vspace{0.1in}
+% resume.tex
+%
+% (c) 2002 Matthew Boedicker <mboedick@mboedick.org> (original author) http://mboedick.org
+% (c) 2003-2007 David J. Grant <davidgrant-at-gmail.com> http://www.davidgrant.ca
+%
+% This work is licensed under the Creative Commons Attribution-ShareAlike 3.0 Unported License. To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/3.0/ or send a letter to Creative Commons, 171 Second Street, Suite 300, San Francisco, California, 94105, USA.
+
+%Margin setup
+
+\setlength{\voffset}{0.1in}
+\setlength{\paperwidth}{8.5in}
+\setlength{\paperheight}{11in}
+\setlength{\headheight}{0in}
+\setlength{\headsep}{0in}
+\setlength{\textheight}{11in}
+\setlength{\textheight}{9.5in}
+\setlength{\topmargin}{-0.25in}
+\setlength{\textwidth}{7in}
+\setlength{\topskip}{0in}
+\setlength{\oddsidemargin}{-0.25in}
+\setlength{\evensidemargin}{-0.25in}
+%-----------------------------------------------------------
+%\usepackage{fullpage}
+%\textheight=9.0in
+\pagestyle{empty}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+%-----------------------------------------------------------
+%Custom commands
+\newcommand{\resitem}[1]{\item #1 \vspace{-2pt}}
+\newcommand{\resheading}[1]{{\large \parashade[.9]{sharpcorners}{\textbf{#1 \vphantom{p\^{E}}}}}}
+\newcommand{\ressubheading}[4]{
+\begin{tabular*}{6.5in}{l@{\extracolsep{\fill}}r}
+		\textbf{#1} & #2 \\
+		\textit{#3} & \textit{#4} \\
+\end{tabular*}\vspace{-6pt}}
+%-----------------------------------------------------------
+
+
+\begin{document}
+
+\begin{tabular*}{7in}{l@{\extracolsep{\fill}}r}
+\textbf{\Large Robert Wendt}  & 716-201-6855\\
+300 Holleman Dr. Apt 1201 &  rob@bvzzdesign.com \\
+College Station, Texas 77840 & https://bvzzdesign.com\\
+\end{tabular*}
+\\
+
+\vspace{0.1in}
+
+
+\resheading{Work Experience}
+\begin{itemize}
+\item
+	\ressubheading{BVZZ Design}{College Station, Texas}{Freelance Web Design}{Nov. 2017 - Current}
+	\begin{itemize}
+		\resitem{Integrated React and Django Rest Framework}
+		\resitem{Deployed servers with nginx, gunicorn, and systemd }
+		\resitem{Created E-mail server with postfix and dovecot to interact with
+      customers and used Rainloop to interface the mail server with coworkers}
+		\resitem{Created online presence for growing and established businesses}
+	\end{itemize}
+
+\item 
+	\ressubheading{Cook Financial Group}{College Station, Texas}{Marketing and Web
+  Development}{Jan. 2017 - Nov. 2017}
+	\begin{itemize}
+		\resitem{Created SEC compliant advertisement campaigns}
+		\resitem{Automated marketing E-mails and backup processes using Perl and Python}
+		\resitem{Created SEC compliant websites by interfacing with required
+      platforms by Summit Brokerage, and overriding CSS rules in order to display
+      our custom content on sites rather than pre built interfaces through the
+      rich text editor}
+	\end{itemize}
+
+\item
+	\ressubheading{Atami}{College Station, Texas}{Waiter}{Feb. 2016 - Dec. 2016}
+	\begin{itemize}
+		\resitem{Created great customer experience by hosting birthday parties,
+      weddings, celebrations}
+		\resitem{Up sold alcoholic and food products}
+	\end{itemize}
+
+
+\resheading{Skills}
+
+\begin{description}
+\item[Languages and Frameworks:]
+EMCAScript, \LaTeX, HTML, CSS, Javascript, Python, Perl, Bash, Bootstrap, React,
+Django, Django-Rest-Framework,
+\item[Operating Systems:]
+Linux (Debian,Ubuntu,Arch), 
+\item[Applications:]
+MatLab, \LaTeX, LibreOffice, MS Office, Gunicorn, Nginx, Dovecot, Postfix
+\item[Miscellaneous:]
+software configuration management, excellent teams skills,
+System Administration experience, self starter, strong leadership skills
+\end{description}
+}
+
+\end{document}
